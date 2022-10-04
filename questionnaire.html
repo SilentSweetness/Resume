@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Questionnaire</title>
+    </head>
+    <body>
+        <img src="images/Harry Potter.jpg" height="300" width="300">
+        <h1>Harry Potter Questionnaire</h1>
+        <form>
+        <!--House-->
+            <section>
+                <span>What is your Hogwart's house?</span>
+                <input type="radio" name="house" id="Gryffindor" value="Gryffindor">
+                <label for="Gryffindor">Gryffindor</label>
+                <input type="radio" name="house" id="Hufflepuff" value="Hufflepuff">
+                <label for="Hufflepuff">Hufflepuff</label>
+                <input type="radio" name="house" id="Ravenclaw" value="Ravenclaw">
+                <label for="Ravenclaw">Ravenclaw</label>
+                <input type="radio" name="house" id="Slytherin" value="Slytherin">
+                <label for="Slytherin">Slytherin</label>
+            </section>
+
+            <!--Number of Books-->
+            <section>
+                <label for="books">How many Harry Potter books have you read?</label>
+                <input type="number" name="books" id="books" min="0" max="8" step="1" required>
+                <br />
+                <label for="movies">How many Harry Potter movies have you seen?</label>
+                <input type="number" name="movies" id="movies" min="0" max="8" step="1" required>
+            </section>
+
+            <!--Favorite-->
+            <section>
+                <label for="favorite-book">What is your favorite Harry Potter book?</label>
+                <select name="favorite-book">
+                    <option value="Sorcerer's Stone">Sorcerer's Stone</option>
+                    <option value="Chamber of Secrets">Chamber of Secrets</option>
+                    <option value="Prisoner of Azkaban">Prisoner of Azkaban</option>
+                    <option value="Goblet of Fire">Goblet of Fire</option>
+                    <option value="Order of the Phoenix">Order of the Phoenix</option>
+                    <option value="Half-Blood Prince">Half-Blood Prince</option>
+                    <option value="Deathly Hallows">Deathly Hallows</option>
+                    <option value="The Cursed Child">The Cursed Child</option>
+                </select>
+            </section>
+
+            <!--Character-->
+            <section>
+                <label for="character">Who is your favorite character? Why?</label>
+                <br />
+                <textarea id="character" name="character" rows="3" cols="40">My favorite character is</textarea>
+            </section>
+
+            <!--submit-->
+            <section>
+                <input type="submit" value="submit">
+            </section>
+
+        </form>
+    </body>
+</html>
