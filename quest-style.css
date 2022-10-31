@@ -16,11 +16,11 @@ img {
 
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 50px;
+    margin: 30px;
 }
 
 form {
-    margin: 50px;
+    margin: 30px 10px;
     border: solid maroon 3px;
     padding: 30px;
     background-color: aliceblue;
