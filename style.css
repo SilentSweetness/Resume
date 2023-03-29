@@ -25,3 +25,23 @@ a:hover {
     color:rgb(52, 52, 185);
     text-decoration: none;
 }
+
+
+/*supposedly easy for nav bars, need more practice */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.nav-li {
+    padding: 20px;
+}
