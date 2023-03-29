@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(255, 207, 215);
+    background: linear-gradient(to right, rgb(252, 205, 212), rgb(130, 130, 252));
 }
 
 h1,
@@ -21,6 +21,7 @@ img:active {
     box-shadow: 0px 0px;
 }
 
+h1,
 h2,
 a {
     display: flex;
