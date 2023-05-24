@@ -66,23 +66,12 @@ a:hover {
     padding: 20px;
 }
 
-
-/*supposedly easy for nav bars, need more practice 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+span {
+    font-size: x-large;
 }
 
-.nav {
-    display: flex;
-    list-style: none;
-    font-size: 1rem;
-    margin: 0;
-    justify-content: flex-end;
+span:hover {
+    background-color:rgb(99, 21, 99);
+    color:#ffffff;
+    cursor: pointer;
 }
-
-.nav-li {
-    padding: 20px;
-}
-*/
