@@ -16,16 +16,7 @@ ul {
     font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
-/*
-a {
-    cursor: pointer;
-}
 
-a:hover {
-    color:rgb(52, 52, 185);
-    text-decoration: none;
-}
-*/
 /*side navigation menu*/
 .sidenav {
     height: 100%;
