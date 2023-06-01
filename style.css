@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to right, #ffffff, rgb(250, 185, 234));
+}
+
 h1,
 h2 {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
